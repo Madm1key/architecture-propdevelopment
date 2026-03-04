@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram id="mindmap-diagram" name="Data Security Mindmap">
-    <mxGraphModel dx="1426" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,33 +10,33 @@
         <mxCell id="public_category" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Публичные данные&lt;/b&gt;&lt;br&gt;Информация о недвижимости с онлайн-витрины" vertex="1">
           <mxGeometry height="100" width="220" x="550" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="edge_center_public" edge="1" parent="1" source="center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6c8ebf;" target="public_category">
+        <mxCell id="edge_center_public" edge="1" parent="1" source="center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6c8ebf;curved=1;" target="public_category">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="internal_category" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Внутренние данные&lt;/b&gt;&lt;br&gt;Отчеты, BI, артефакты операционной деятельности" vertex="1">
           <mxGeometry height="100" width="220" x="1140" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="edge_center_internal" edge="1" parent="1" source="center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;" target="internal_category">
+        <mxCell id="edge_center_internal" edge="1" parent="1" source="center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;curved=1;" target="internal_category">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="confidential_category" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Конфиденциальные данные&lt;/b&gt;&lt;br&gt;ПДн клиентов и собственников, договоры, платёженая информация" vertex="1">
           <mxGeometry height="120" width="240" x="540" y="790" as="geometry" />
         </mxCell>
-        <mxCell id="edge_center_confidential" edge="1" parent="1" source="center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;" target="confidential_category">
+        <mxCell id="edge_center_confidential" edge="1" parent="1" source="center" style="rounded=0;html=1;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;curved=1;" target="confidential_category">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="secret_category" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Секретные данные&lt;/b&gt;&lt;br&gt;Типы: юридические документы, ключи/пароли от систем и API, сведения о подрядчиках, закрытые финансовые данные" vertex="1">
+        <mxCell id="secret_category" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Секретные данные&lt;/b&gt;&lt;br&gt;Ключи/пароли от систем и API, сведения о подрядчиках, закрытые финансовые данные" vertex="1">
           <mxGeometry height="120" width="240" x="1130" y="800" as="geometry" />
         </mxCell>
-        <mxCell id="edge_center_secret" edge="1" parent="1" source="center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;" target="secret_category">
+        <mxCell id="edge_center_secret" edge="1" parent="1" source="center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;curved=1;" target="secret_category">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge_public_risk_leak_to_reason" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6c8ebf;endArrow=classic;" target="public_reason_leak">
+        <mxCell id="edge_public_risk_leak_to_reason" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6c8ebf;endArrow=classic;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="400" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_public_risk_loss_to_reason" edge="1" parent="1" source="public_risk_loss" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6c8ebf;endArrow=classic;">
+        <mxCell id="edge_public_risk_loss_to_reason" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6c8ebf;endArrow=classic;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="370" as="targetPoint" />
           </mxGeometry>
@@ -56,19 +56,19 @@
         <mxCell id="internal_risk_leak" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Утечка&lt;/b&gt;&lt;br&gt;Уровень: Значительный" vertex="1">
           <mxGeometry height="80" width="180" x="1010" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="internal_reason_leak" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Раскрытие внутренних процессов может привести к злоупотреблениям и нарушить операционную деятельность." vertex="1">
-          <mxGeometry height="110" width="180" x="1010" y="270" as="geometry" />
-        </mxCell>
         <mxCell id="edge_internal_cat_to_risk_leak" edge="1" parent="1" source="internal_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;endArrow=classic;" target="internal_risk_leak">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge_internal_risk_leak_to_reason" edge="1" parent="1" source="internal_risk_leak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;endArrow=classic;" target="internal_reason_leak">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge_internal_risk_leak_to_reason" edge="1" parent="1" source="internal_risk_leak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="internal_reason_loss">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="380" as="sourcePoint" />
+            <mxPoint x="1100" y="380.0000000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="internal_risk_loss" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Потеря&lt;/b&gt;&lt;br&gt;Уровень: Значительный" vertex="1">
           <mxGeometry height="80" width="180" x="1210" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="internal_reason_loss" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Раскрытие внутренних процессов может привести к злоупотреблениям и нарушить операционную деятельность." vertex="1">
+        <mxCell id="internal_reason_loss" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Проблема управления и хранения потоков данных; со стороны системы обработки данных нет ограничений по доступам" vertex="1">
           <mxGeometry height="110" width="180" x="1210" y="270" as="geometry" />
         </mxCell>
         <mxCell id="edge_internal_cat_to_risk_loss" edge="1" parent="1" source="internal_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;endArrow=classic;" target="internal_risk_loss">
@@ -80,19 +80,21 @@
         <mxCell id="internal_risk_distortion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Искажение&lt;/b&gt;&lt;br&gt;Уровень: Значительный" vertex="1">
           <mxGeometry height="80" width="180" x="1410" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="internal_reason_distortion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Раскрытие внутренних процессов может привести к злоупотреблениям и нарушить операционную деятельность." vertex="1">
-          <mxGeometry height="110" width="180" x="1410" y="270" as="geometry" />
-        </mxCell>
         <mxCell id="edge_internal_cat_to_risk_distortion" edge="1" parent="1" source="internal_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="internal_risk_distortion">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge_internal_risk_distortion_to_reason" edge="1" parent="1" source="internal_risk_distortion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;endArrow=classic;" target="internal_reason_distortion">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge_internal_risk_distortion_to_reason" edge="1" parent="1" source="internal_risk_distortion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="internal_reason_loss">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="325" />
+            </Array>
+            <mxPoint x="1500" y="380.0000000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="confidential_risk_leak" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Утечка&lt;/b&gt;&lt;br&gt;Уровень: Критический" vertex="1">
           <mxGeometry height="80" width="180" x="330" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="confidential_reason_leak" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Контракты API предоставляют избыточные ПДн; контракты предоставляют чтение данных внешним поль-м" vertex="1">
+        <mxCell id="confidential_reason_leak" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Контракты API предоставляют избыточные ПДн; контракты предоставляют чтение данных внешним поль-м; пользователи в ЛК видят данные других пользователей" vertex="1">
           <mxGeometry height="130" width="180" x="330" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="edge_confidential_cat_to_risk_leak" edge="1" parent="1" source="confidential_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;" target="confidential_risk_leak">
@@ -101,7 +103,7 @@
         <mxCell id="edge_confidential_risk_leak_to_reason" edge="1" parent="1" source="confidential_risk_leak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;" target="confidential_reason_leak">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge_confidential_risk_loss_to_reason" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;" target="confidential_reason_loss">
+        <mxCell id="edge_confidential_risk_loss_to_reason" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="1020" as="sourcePoint" />
           </mxGeometry>
@@ -110,60 +112,64 @@
           <mxGeometry height="80" width="180" x="570" y="940" as="geometry" />
         </mxCell>
         <mxCell id="confidential_reason_distortion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Есть потоки данных без системного контроля (e.g. несколько точек регистрации без синх-ии)" vertex="1">
-          <mxGeometry height="130" width="180" x="570" y="1070" as="geometry" />
+          <mxGeometry height="130" width="180" x="680" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="edge_confidential_cat_to_risk_distortion" edge="1" parent="1" source="confidential_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;" target="confidential_risk_distortion">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge_confidential_risk_distortion_to_reason" edge="1" parent="1" source="confidential_risk_distortion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;" target="confidential_reason_distortion">
+        <mxCell id="edge_confidential_risk_distortion_to_reason" edge="1" parent="1" source="confidential_risk_distortion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="confidential_reason_distortion">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="confidential_risk_quality" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Некачественные данные&lt;/b&gt;&lt;br&gt;Уровень: Значительный" vertex="1">
           <mxGeometry height="80" width="180" x="790" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="confidential_reason_quality" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Есть потоки данных без системного контроля; есть риск что не все данные соот-ют требованиям РФ" vertex="1">
-          <mxGeometry height="130" width="180" x="790" y="1070" as="geometry" />
-        </mxCell>
         <mxCell id="edge_confidential_cat_to_risk_quality" edge="1" parent="1" source="confidential_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;" target="confidential_risk_quality">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge_confidential_risk_quality_to_reason" edge="1" parent="1" source="confidential_risk_quality" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;" target="confidential_reason_quality">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge_confidential_risk_quality_to_reason" edge="1" parent="1" source="confidential_risk_quality" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="confidential_reason_distortion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="1070" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="secret_risk_leak" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Утечка&lt;/b&gt;&lt;br&gt;Уровень: Критический" vertex="1">
           <mxGeometry height="80" width="180" x="1020" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="secret_reason_leak" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Ключи и пароли дают полный контроль над системами. Их компрометация создаёт максимальный риск для бизнеса и безопасности." vertex="1">
-          <mxGeometry height="120" width="180" x="1020" y="1110" as="geometry" />
-        </mxCell>
         <mxCell id="edge_secret_cat_to_risk_leak" edge="1" parent="1" source="secret_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;" target="secret_risk_leak">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge_secret_risk_leak_to_reason" edge="1" parent="1" source="secret_risk_leak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;" target="secret_reason_leak">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge_secret_risk_leak_to_reason" edge="1" parent="1" source="secret_risk_leak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="secret_reason_distortion">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="1180" />
+            </Array>
+            <mxPoint x="1110" y="1110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="secret_risk_loss" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Потеря&lt;/b&gt;&lt;br&gt;Уровень: Критический" vertex="1">
           <mxGeometry height="80" width="180" x="1230" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="secret_reason_loss" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Ключи и пароли дают полный контроль над системами. Их компрометация создаёт максимальный риск для бизнеса и безопасности." vertex="1">
-          <mxGeometry height="120" width="180" x="1230" y="1110" as="geometry" />
-        </mxCell>
-        <mxCell id="edge_secret_risk_loss_to_reason" edge="1" parent="1" source="secret_risk_loss" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;" target="secret_reason_loss">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge_secret_risk_loss_to_reason" edge="1" parent="1" source="secret_risk_loss" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="secret_reason_distortion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="1110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="secret_risk_distortion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;" value="&lt;b&gt;Риск: Искажение&lt;/b&gt;&lt;br&gt;Уровень: Критический" vertex="1">
           <mxGeometry height="80" width="180" x="1430" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="secret_reason_distortion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Ключи и пароли дают полный контроль над системами. Их компрометация создаёт максимальный риск для бизнеса и безопасности." vertex="1">
-          <mxGeometry height="120" width="180" x="1430" y="1110" as="geometry" />
+        <mxCell id="secret_reason_distortion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;" value="&lt;b&gt;Почему:&lt;/b&gt;&lt;br&gt;Контракты позволяют получать доступы к действиям и данным к которым у них не должно быть доступа" vertex="1">
+          <mxGeometry height="120" width="180" x="1230" y="1120" as="geometry" />
         </mxCell>
         <mxCell id="edge_secret_cat_to_risk_distortion" edge="1" parent="1" source="secret_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="secret_risk_distortion">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1390" y="960" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_secret_risk_distortion_to_reason" edge="1" parent="1" source="secret_risk_distortion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;" target="secret_reason_distortion">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge_secret_risk_distortion_to_reason" edge="1" parent="1" source="secret_risk_distortion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="secret_reason_distortion">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="1180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aXlFRCv72AHrDBPCKWTW-1" edge="1" parent="1" source="secret_category" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="secret_risk_loss">
           <mxGeometry relative="1" as="geometry">
