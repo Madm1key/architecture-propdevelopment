@@ -1,0 +1,31 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: propdev-auditor
+rules:
+  - apiGroups: [ "*" ]
+    resources: [ "*" ]
+    verbs: [ "get", "list", "watch" ]
+
+---
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: propdev-viewer
+rules:
+  - apiGroups: [ "", "apps", "networking.k8s.io" ]
+    resources: [ "pods", "deployments", "services", "ingresses" ]
+    verbs: [ "get", "list", "watch" ]
+
+---
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: development
+  name: propdev-developer
+rules:
+  - apiGroups: [ "", "apps", "batch", "networking.k8s.io" ]
+    resources: [ "pods", "deployments", "replicasets", "statefulsets", "jobs", "cronjobs" ]
+    verbs: [ "get", "list", "watch", "create", "update", "patch", "delete" ]

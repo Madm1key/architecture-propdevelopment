@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  namespace: kube-system
+  name: admin-user
+
+---
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  namespace: kube-system
+  name: viewer-user
+
+---
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  namespace: kube-system
+  name: audit-user
+
+---
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  namespace: development
+  name: dev-user
